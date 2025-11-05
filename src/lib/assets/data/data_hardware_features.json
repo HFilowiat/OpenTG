@@ -1,0 +1,162 @@
+[
+	{
+		"name": "Integer Arithmetic",
+		"category": "Instruction Set",
+		"description": "Supports basic arithmetic operations like ADD, SUB, MUL, DIV, INC, DEC for integers.",
+		"points": 0,
+		"requiredSkill": ["HardwareEngineer"],
+		"pointScale": [150, 400, 600, 900],
+		"releaseDate": "1975-01-01",
+		"instructionPerCycle": 0.5
+	},
+	{
+		"name": "Memory Indirect Addressing",
+		"category": "Memory Access",
+		"description": "Allows accessing memory using indirect addressing modes such as Register Indirect.",
+		"points": 0,
+		"requiredSkill": ["HardwareEngineer"],
+		"pointScale": [100, 300, 450, 700],
+		"releaseDate": "1977-01-01",
+		"instructionPerCycle": 2
+	},
+	{
+		"name": "Variable Data Types",
+		"category": "Data Types",
+		"description": "Supports different integer data sizes (e.g., 8-bit, 16-bit, 32-bit).",
+		"points": 0,
+		"requiredSkill": ["HardwareEngineer"],
+		"pointScale": [150, 350, 500, 800],
+		"releaseDate": "1979-01-01",
+		"instructionPerCycle": 2
+	},
+	{
+		"name": "Relative Addressing",
+		"category": "Addressing Modes",
+		"description": "Enables addressing operands relative to the program counter.",
+		"points": 0,
+		"requiredSkill": ["HardwareEngineer"],
+		"pointScale": [100, 300, 400, 600],
+		"releaseDate": "1981-01-01",
+		"instructionPerCycle": 2
+	},
+	{
+		"name": "Conditional Branching",
+		"category": "Branching",
+		"description": "Provides conditional jump instructions (e.g., JZ, JNZ) for control flow.",
+		"points": 0,
+		"requiredSkill": ["HardwareEngineer"],
+		"pointScale": [150, 400, 600, 900],
+		"releaseDate": "1983-01-01",
+		"instructionPerCycle": 2
+	},
+	{
+		"name": "On-Chip Cache",
+		"category": "Memory Hierarchy",
+		"description": "Includes a small cache on the chip to speed up memory access.",
+		"points": 0,
+		"requiredSkill": ["HardwareEngineer"],
+		"pointScale": [200, 500, 800, 1200],
+		"releaseDate": "1985-01-01",
+		"instructionPerCycle": 2
+	},
+	{
+		"name": "Two-Stage Pipeline",
+		"category": "Pipeline Design",
+		"description": "Introduces a two-stage pipeline to improve instruction throughput.",
+		"points": 0,
+		"requiredSkill": ["HardwareEngineer"],
+		"pointScale": [150, 300, 450, 700],
+		"releaseDate": "1987-01-01",
+		"instructionPerCycle": 2
+	},
+	{
+		"name": "Low Clock Frequency",
+		"category": "Clock Frequency",
+		"description": "Operates at lower clock frequencies to achieve better power efficiency.",
+		"points": 0,
+		"requiredSkill": ["HardwareEngineer"],
+		"pointScale": [100, 250, 400, 600],
+		"releaseDate": "1989-01-01",
+		"instructionPerCycle": 2
+	},
+	{
+		"name": "CPI and IPC Metrics",
+		"category": "Performance Metrics",
+		"description": "Introduces metrics like CPI and IPC to measure instruction efficiency.",
+		"points": 0,
+		"requiredSkill": ["HardwareEngineer"],
+		"pointScale": [150, 350, 550, 800],
+		"releaseDate": "1991-01-01",
+		"instructionPerCycle": 2
+	},
+	{
+		"name": "Basic Exception Handling",
+		"category": "Exception Handling",
+		"description": "Implements basic trap mechanism for handling exceptions and interrupts.",
+		"points": 0,
+		"requiredSkill": ["HardwareEngineer"],
+		"pointScale": [100, 300, 450, 700],
+		"releaseDate": "1993-01-01",
+		"instructionPerCycle": 2
+	},
+	{
+		"name": "Pipeline Design",
+		"category": "Pipeline Design",
+		"description": "Introduces early stages of pipeline adoption to improve instruction throughput.",
+		"points": 0,
+		"requiredSkill": ["HardwareEngineer"],
+		"pointScale": [150, 400, 600, 900],
+		"releaseDate": "1995-01-01",
+		"instructionPerCycle": 2
+	},
+	{
+		"name": "Limited Registers",
+		"category": "Register File Size",
+		"description": "Provides a limited number of general-purpose registers.",
+		"points": 0,
+		"requiredSkill": ["HardwareEngineer"],
+		"pointScale": [100, 250, 400, 600],
+		"releaseDate": "1997-01-01",
+		"instructionPerCycle": 2
+	},
+	{
+		"name": "Bit Manipulation",
+		"category": "Bit Manipulation",
+		"description": "Enables operations on individual bits and shifts for manipulation.",
+		"points": 0,
+		"requiredSkill": ["HardwareEngineer"],
+		"pointScale": [150, 350, 550, 800],
+		"releaseDate": "1999-01-01",
+		"instructionPerCycle": 2
+	},
+	{
+		"name": "Basic I/O Operations",
+		"category": "System Calls",
+		"description": "Includes basic input and output operations for interaction with peripherals.",
+		"points": 0,
+		"requiredSkill": ["HardwareEngineer"],
+		"pointScale": [100, 300, 450, 700],
+		"releaseDate": "2001-01-01",
+		"instructionPerCycle": 2
+	},
+	{
+		"name": "Microcode Support",
+		"category": "Instruction Set",
+		"description": "Introduces microcode for supporting complex instructions.",
+		"points": 0,
+		"requiredSkill": ["HardwareEngineer"],
+		"pointScale": [200, 500, 800, 1200],
+		"releaseDate": "1972-01-01",
+		"instructionPerCycle": 2
+	},
+	{
+		"name": "Indexed Addressing",
+		"category": "Memory Access",
+		"description": "Enables indexed addressing mode for efficient array access.",
+		"points": 0,
+		"requiredSkill": ["HardwareEngineer"],
+		"pointScale": [100, 300, 450, 700],
+		"releaseDate": "1974-01-01",
+		"instructionPerCycle": 2
+	}
+]

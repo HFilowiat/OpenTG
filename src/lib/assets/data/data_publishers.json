@@ -1,0 +1,380 @@
+[
+	{
+		"marketingBudget": 0,
+		"size": "large",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.91,
+		"gamesPublished": 47,
+		"name": "Magnabox",
+		"platformTags": ["Magnabox.Odessei2"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "large",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.74,
+		"gamesPublished": 35,
+		"name": "Imagix",
+		"platformTags": ["Magnabox.Odessei2", "Ataru.2600", "Mettal.Intelvision"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "large",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.79,
+		"gamesPublished": 55,
+		"name": "Parker Bros",
+		"platformTags": [
+			"Magnabox.Odessei2",
+			"Ataru.2600",
+			"Mettal.Intelvision",
+			"Coneco.ConecoVision",
+			"Orange.OrangeII",
+			"ataru5200",
+			"sagems"
+		]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "global",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.9,
+		"gamesPublished": 136,
+		"name": "Ataru, Inc.",
+		"platformTags": ["Ataru.2600", "ataruXe", "ataru7800pro", "ataru5200"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "small",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.35,
+		"gamesPublished": 23,
+		"name": "Xenox",
+		"platformTags": ["Ataru.2600", "Coneco.ConecoVision"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "giant",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.8,
+		"gamesPublished": 50,
+		"name": "Coneco",
+		"platformTags": ["Ataru.2600", "Coneco.ConecoVision", "Mettal.Intelvision"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "giant",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.7,
+		"gamesPublished": 80,
+		"name": "Activesion",
+		"platformTags": [
+			"ataruXe",
+			"Ataru.2600",
+			"Coneco.ConecoVision",
+			"Mettal.Intelvision",
+			"Orange.OrangeII",
+			"ataru7800pro",
+			"ataru5200",
+			"sagems",
+			"yes"
+		]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "giant",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.75,
+		"gamesPublished": 90,
+		"name": "Mettal Electronics",
+		"platformTags": ["Mettal.Intelvision", "Orange.OrangeII"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "large",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.75,
+		"gamesPublished": 85,
+		"name": "Code Works",
+		"platformTags": ["Kommodor.PEM"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "medium",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.75,
+		"gamesPublished": 35,
+		"name": "Programma International",
+		"platformTags": ["Kommodor.PEM", "Orange.OrangeII"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "medium",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.75,
+		"gamesPublished": 28,
+		"name": "Epix",
+		"platformTags": ["Kommodor.PEM", "Orange.OrangeII", "Ataru.2600", "Coneco.ConecoVision"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "medium",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.75,
+		"gamesPublished": 30,
+		"name": "Creative Computation Software",
+		"platformTags": ["Kommodor.PEM", "Orange.OrangeII"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "medium",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.75,
+		"gamesPublished": 20,
+		"name": "Adventure International",
+		"platformTags": ["Kommodor.PEM", "Orange.OrangeII", "Dandy.DRH-80"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "giant",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.7,
+		"gamesPublished": 7,
+		"name": "Dandy Corporation",
+		"platformTags": ["Dandy.DRH-80"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "small",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.6,
+		"gamesPublished": 8,
+		"name": "Accolade",
+		"platformTags": ["Orange.OrangeII"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "giant",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.8,
+		"gamesPublished": 8,
+		"name": "OrangeII Computer",
+		"platformTags": ["Orange.OrangeII"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "giant",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.7,
+		"gamesPublished": 14,
+		"name": "Atarusoft",
+		"platformTags": ["Orange.OrangeII"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "medium",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.65,
+		"gamesPublished": 35,
+		"name": "Broderband",
+		"platformTags": ["Orange.OrangeII", "Kommodor.PEM"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "medium",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.75,
+		"gamesPublished": 5,
+		"name": "California Pacific Computer Company",
+		"platformTags": ["Orange.OrangeII"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "medium",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.7,
+		"gamesPublished": 15,
+		"name": "Datamost",
+		"platformTags": ["Orange.OrangeII"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "small",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.64,
+		"gamesPublished": 13,
+		"name": "Datasoft",
+		"platformTags": ["Orange.OrangeII"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "small",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.64,
+		"gamesPublished": 11,
+		"name": "Edu-Ware",
+		"platformTags": ["Orange.OrangeII"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "medium",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.62,
+		"gamesPublished": 24,
+		"name": "Software Arts",
+		"platformTags": ["Orange.OrangeII"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "medium",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.6,
+		"gamesPublished": 22,
+		"name": "Infocoms",
+		"platformTags": ["Orange.OrangeII"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "medium",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.43,
+		"gamesPublished": 60,
+		"name": "Muse Software",
+		"platformTags": ["Orange.OrangeII"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "small",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.3,
+		"gamesPublished": 60,
+		"name": "On-Line Systems",
+		"platformTags": ["Orange.OrangeII"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "small",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.36,
+		"gamesPublished": 76,
+		"name": "Penguin Software",
+		"platformTags": ["Orange.OrangeII"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "small",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.65,
+		"gamesPublished": 8,
+		"name": "Sir-Tech",
+		"platformTags": ["Orange.OrangeII"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "medium",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.72,
+		"gamesPublished": 25,
+		"name": "Sirius Software",
+		"platformTags": ["Orange.OrangeII"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "small",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.68,
+		"gamesPublished": 10,
+		"name": "Synergistic Software",
+		"platformTags": ["Orange.OrangeII"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "large",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.7,
+		"gamesPublished": 30,
+		"name": "Yamauchi",
+		"platformTags": ["ataruXe", "yes"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "large",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.75,
+		"gamesPublished": 30,
+		"name": "SAGE",
+		"platformTags": ["sagems"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "large",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.7,
+		"gamesPublished": 30,
+		"name": "Pandai",
+		"platformTags": ["yes"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "large",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.7,
+		"gamesPublished": 30,
+		"name": "Capcop",
+		"platformTags": ["yes"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "large",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.7,
+		"gamesPublished": 30,
+		"name": "Jelyco",
+		"platformTags": ["yes"]
+	},
+	{
+		"marketingBudget": 0,
+		"size": "large",
+		"lastContact": 0,
+		"whoDecidesPrice": "publisher",
+		"percentage": 0.7,
+		"gamesPublished": 30,
+		"name": "Minako",
+		"platformTags": ["yes"]
+	}
+]

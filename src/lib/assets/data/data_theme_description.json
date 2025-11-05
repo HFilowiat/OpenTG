@@ -1,0 +1,30 @@
+[
+	{
+		"themes": ["Space Exploration", "Cyberpunk"],
+		"description": "In a dystopian future where mega-corporations control space travel, players navigate neon-lit space stations and cyber-enhanced planets. They uncover dark secrets and engage in high-tech heists across the galaxy."
+	},
+	{
+		"themes": ["Medieval Fantasy", "Mythology"],
+		"description": "Set in a world where ancient myths come to life, players embark on epic quests involving legendary creatures, gods, and magical artifacts. They must balance the politics of medieval kingdoms with the whims of powerful deities."
+	},
+	{
+		"themes": ["Post-Apocalyptic", "Survival Horror"],
+		"description": "After a cataclysmic event, humanity is on the brink of extinction. Players must scavenge for resources, fend off mutated creatures, and survive in a world where every shadow hides a new terror."
+	},
+	{
+		"themes": ["Mystery and Detective", "Steampunk"],
+		"description": "In a Victorian-era city powered by steam and clockwork, players take on the role of a detective solving intricate mysteries. They must navigate a world filled with mechanical marvels and hidden dangers."
+	},
+	{
+		"themes": ["Fantasy Adventure", "Magic and Sorcery"],
+		"description": "Players embark on a grand adventure in a world brimming with magical creatures and ancient spells. They must master powerful sorcery to overcome formidable foes and uncover hidden treasures."
+	},
+	{
+		"themes": ["War and History", "Military Strategy"],
+		"description": "Set during a pivotal historical conflict, players command armies and devise strategies to change the course of history. They must balance resource management with tactical warfare to achieve victory."
+	},
+	{
+		"themes": ["Zombie Apocalypse", "Underwater Exploration"],
+		"description": "In a world overrun by zombies, the last remnants of humanity have taken refuge in underwater cities. Players must explore the depths, gather resources, and fend off zombie attacks to survive."
+	}
+]

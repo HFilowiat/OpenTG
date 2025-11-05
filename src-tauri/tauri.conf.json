@@ -1,0 +1,88 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/schema.json",
+  "build": {
+    "beforeBuildCommand": "bun run build:windows",
+    "beforeDevCommand": "bun run dev:windows",
+    "devPath": "http://localhost:5173",
+    "distDir": "../build"
+  },
+  "package": {
+    "productName": "OpenTG",
+    "version": "../package.json"
+  },
+  "tauri": {
+    "allowlist": {
+      "fs": {
+        "all": true,
+        "copyFile": false,
+        "createDir": false,
+        "exists": false,
+        "readDir": false,
+        "readFile": false,
+        "removeDir": false,
+        "removeFile": false,
+        "renameFile": false,
+        "scope": ["$DOCUMENT/*", "$DOCUMENT/OpenTG/**"],
+        "writeFile": false
+      },
+      "path": {
+        "all": true
+      },
+      "window": {
+        "setFullscreen": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "category": "Game",
+      "copyright": "",
+      "deb": {
+        "depends": []
+      },
+      "externalBin": [],
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ],
+      "identifier": "open.source",
+      "longDescription": "",
+      "macOS": {
+        "entitlements": null,
+        "exceptionDomain": "",
+        "frameworks": [],
+        "providerShortName": null,
+        "signingIdentity": null
+      },
+      "resources": [],
+      "shortDescription": "OpenTG is the free and open source version of Tech Giants a business simulation tycoon game.",
+      "targets": ["nsis"],
+      "windows": {
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "timestampUrl": "",
+        "webviewInstallMode": {
+          "silent": true,
+          "type": "embedBootstrapper"
+        }
+      }
+    },
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": false
+    },
+    "windows": [
+      {
+        "fullscreen": true,
+        "height": 600,
+        "resizable": true,
+        "title": "OpenTG",
+        "width": 800
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+	"Action": {
+		"Adventure": 0.9,
+		"Puzzle": 0.3,
+		"Racing": 0.8,
+		"Role-playing": 0.7,
+		"Simulation": 0.4,
+		"Sports": 0.6,
+		"Strategy": 0.5
+	},
+	"Adventure": {
+		"Action": 0.9,
+		"Puzzle": 0.7,
+		"Racing": 0.4,
+		"Role-playing": 0.8,
+		"Simulation": 0.5,
+		"Sports": 0.6,
+		"Strategy": 0.7
+	},
+	"Puzzle": {
+		"Action": 0.3,
+		"Adventure": 0.7,
+		"Racing": 0.2,
+		"Role-playing": 0.6,
+		"Simulation": 0.8,
+		"Sports": 0.4,
+		"Strategy": 0.9
+	},
+	"Racing": {
+		"Action": 0.8,
+		"Adventure": 0.4,
+		"Puzzle": 0.2,
+		"Role-playing": 0.5,
+		"Simulation": 0.9,
+		"Sports": 0.7,
+		"Strategy": 0.3
+	},
+	"Role-playing": {
+		"Action": 0.7,
+		"Adventure": 0.8,
+		"Puzzle": 0.6,
+		"Racing": 0.5,
+		"Simulation": 0.7,
+		"Sports": 0.4,
+		"Strategy": 0.8
+	},
+	"Simulation": {
+		"Action": 0.4,
+		"Adventure": 0.5,
+		"Puzzle": 0.8,
+		"Racing": 0.9,
+		"Role-playing": 0.7,
+		"Sports": 0.6,
+		"Strategy": 0.8
+	},
+	"Sports": {
+		"Action": 0.6,
+		"Adventure": 0.6,
+		"Puzzle": 0.4,
+		"Racing": 0.7,
+		"Role-playing": 0.4,
+		"Simulation": 0.6,
+		"Strategy": 0.5
+	},
+	"Strategy": {
+		"Action": 0.5,
+		"Adventure": 0.7,
+		"Puzzle": 0.9,
+		"Racing": 0.3,
+		"Role-playing": 0.8,
+		"Simulation": 0.8,
+		"Sports": 0.5
+	}
+}

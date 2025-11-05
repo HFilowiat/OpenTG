@@ -1,0 +1,313 @@
+[
+	{
+		"tag": "Orange.OrangeII",
+		"name": "Orange II",
+		"releaseDate": { "@type": "ISODate", "value": "1977-06-01" },
+		"discontinued": { "@type": "ISODate", "value": "1979-01-01" },
+		"generation": 0,
+		"media": ["Cassette Tape", "Floppy Disk"],
+		"averageGamePrice": {
+			"currency": "USD",
+			"value": 34.99
+		},
+		"units": [
+			[{ "@type": "ISODate", "value": "1977-06-01" }, 0],
+			[{ "@type": "ISODate", "value": "1977-07-01" }, 600],
+			[{ "@type": "ISODate", "value": "1978-02-01" }, 7600],
+			[{ "@type": "ISODate", "value": "1979-07-01" }, 35000]
+		],
+		"imagesrc": "ORANGE_II",
+		"license": { "bought": true },
+		"specs": {
+			"cpu": { "speed": 1022727, "core": 1, "socket": 1, "DIPCC": 0.43, "bit": 8 },
+			"gpu": { "resolution": { "width": 140, "height": 192 }, "maxSprite": 0, "color": 6 },
+			"mem": { "speed": 0, "size": [4096, 8192, 12288, 16384, 20480, 24576, 32768, 36864, 49152] },
+			"media": { "capacity": [143360], "format": "single-sided 5.25-inch" }
+		}
+	},
+	{
+		"tag": "Kommodor.PEM",
+		"name": "PEM",
+		"releaseDate": { "@type": "ISODate", "value": "1977-12-01" },
+		"discontinued": { "@type": "ISODate", "value": "1982-02-01" },
+		"media": ["Cassette Tape", "Floppy Disk"],
+		"averageGamePrice": {
+			"currency": "USD",
+			"value": 34.99
+		},
+		"generation": 0,
+		"units": [
+			[{ "@type": "ISODate", "value": "1977-12-01" }, 4000],
+			[{ "@type": "ISODate", "value": "1979-01-01" }, 34000],
+			[{ "@type": "ISODate", "value": "1980-01-01" }, 79000],
+			[{ "@type": "ISODate", "value": "1981-01-01" }, 169000],
+			[{ "@type": "ISODate", "value": "1982-01-01" }, 209000],
+			[{ "@type": "ISODate", "value": "1983-01-01" }, 219000]
+		],
+		"imagesrc": "PET",
+		"license": { "bought": true },
+		"specs": {
+			"cpu": { "speed": 1000000.0, "core": 1, "socket": 1, "DIPCC": 0.43, "bit": 8 },
+			"gpu": { "resolution": { "width": 40, "height": 25 }, "maxSprite": 0, "color": 2 },
+			"mem": { "speed": 0, "size": [4096, 8192] },
+			"media": { "capacity": [174080], "format": "single-sided 5.25-inch" }
+		}
+	},
+	{
+		"tag": "Dandy.DRH-80",
+		"name": "DRH-80",
+		"releaseDate": { "@type": "ISODate", "value": "1977-08-01" },
+		"discontinued": { "@type": "ISODate", "value": "1981-02-01" },
+		"media": ["Cassette Tape", "Floppy Disk"],
+		"averageGamePrice": {
+			"currency": "USD",
+			"value": 34.99
+		},
+		"generation": 0,
+		"units": [
+			[{ "@type": "ISODate", "value": "1977-08-01" }, 0],
+			[{ "@type": "ISODate", "value": "1977-10-01" }, 10000],
+			[{ "@type": "ISODate", "value": "1978-01-01" }, 110000],
+			[{ "@type": "ISODate", "value": "1979-01-01" }, 260000],
+			[{ "@type": "ISODate", "value": "1980-01-01" }, 460000],
+			[{ "@type": "ISODate", "value": "1981-01-01" }, 750000]
+		],
+		"imagesrc": "DRH_80",
+		"license": { "bought": true },
+		"specs": {
+			"cpu": { "speed": 1774000.0, "core": 1, "socket": 1, "DIPCC": 0.145, "bit": 8 },
+			"gpu": { "resolution": { "width": 64, "height": 16 }, "maxSprite": 0, "color": 2 },
+			"mem": { "speed": 0, "size": [4096, 16384] },
+			"media": { "capacity": [56250], "format": "cassette-30min" }
+		}
+	},
+	{
+		"tag": "Ataru.2600",
+		"name": "Ataru 2600",
+		"releaseDate": { "@type": "ISODate", "value": "1977-09-01" },
+		"discontinued": { "@type": "ISODate", "value": "1992-02-01" },
+		"media": ["ROM Cartridge"],
+		"averageGamePrice": {
+			"currency": "USD",
+			"value": 39.99
+		},
+		"generation": 2,
+		"units": [
+			[{ "@type": "ISODate", "value": "1977-09-01" }, 0],
+			[{ "@type": "ISODate", "value": "1978-01-01" }, 250000],
+			[{ "@type": "ISODate", "value": "1979-01-01" }, 550000],
+			[{ "@type": "ISODate", "value": "1980-01-01" }, 1000000],
+			[{ "@type": "ISODate", "value": "1981-01-01" }, 2000000],
+			[{ "@type": "ISODate", "value": "1982-01-01" }, 6000000],
+			[{ "@type": "ISODate", "value": "1983-01-01" }, 10000000],
+			[{ "@type": "ISODate", "value": "1985-01-01" }, 19000000],
+			[{ "@type": "ISODate", "value": "1986-01-01" }, 20000000],
+			[{ "@type": "ISODate", "value": "1990-01-01" }, 24000000],
+			[{ "@type": "ISODate", "value": "1993-01-01" }, 25000000]
+		],
+		"imagesrc": "ATARU_2600",
+		"license": { "bought": false, "costPerYear": 20000 },
+		"specs": {
+			"cpu": { "speed": 1190000.0, "core": 1, "socket": 1, "DIPCC": 0.43, "bit": 8 },
+			"gpu": { "resolution": { "width": 160, "height": 192 }, "maxSprite": 5, "color": 4 },
+			"mem": { "speed": 0, "size": [128] },
+			"media": { "capacity": [4096] }
+		}
+	},
+	{
+		"tag": "Mettal.Intelvision",
+		"name": "Intelvision",
+		"releaseDate": { "@type": "ISODate", "value": "1980-02-01" },
+		"discontinued": { "@type": "ISODate", "value": "1990-02-01" },
+		"media": ["ROM Cartridge"],
+		"averageGamePrice": {
+			"currency": "USD",
+			"value": 39.99
+		},
+		"generation": 2,
+		"units": [
+			[{ "@type": "ISODate", "value": "1980-02-01" }, 0],
+			[{ "@type": "ISODate", "value": "1981-02-01" }, 900000],
+			[{ "@type": "ISODate", "value": "1984-02-01" }, 3000000]
+		],
+		"imagesrc": "INTELIVISION",
+		"license": { "bought": false, "costPerYear": 10000 },
+		"specs": {
+			"cpu": { "speed": 894886.25, "core": 1, "socket": 1, "DIPCC": 1, "bit": 16 },
+			"gpu": { "resolution": { "width": 159, "height": 96 }, "maxSprite": 8, "color": 16 },
+			"mem": { "speed": 0, "size": [1456] },
+			"media": { "capacity": [4096, 6144, 8192, 12288, 16384] }
+		}
+	},
+	{
+		"tag": "Coneco.ConecoVision",
+		"name": "Coneco Vision",
+		"releaseDate": { "@type": "ISODate", "value": "1982-08-01" },
+		"discontinued": { "@type": "ISODate", "value": "1985-02-01" },
+		"media": ["ROM Cartridge"],
+		"averageGamePrice": {
+			"currency": "USD",
+			"value": 39.99
+		},
+		"generation": 2,
+		"units": [
+			[{ "@type": "ISODate", "value": "1982-08-01" }, 0],
+			[{ "@type": "ISODate", "value": "1982-12-01" }, 550000],
+			[{ "@type": "ISODate", "value": "1983-02-01" }, 2000000],
+			[{ "@type": "ISODate", "value": "1985-02-01" }, 6000000]
+		],
+		"imagesrc": "CONECO_VISION",
+		"license": { "bought": false, "costPerYear": 15000 },
+		"specs": {
+			"cpu": { "speed": 3580000, "core": 1, "socket": 1, "DIPCC": 1, "bit": 8 },
+			"gpu": { "resolution": { "width": 256, "height": 192 }, "maxSprite": 32, "color": 16 },
+			"mem": { "speed": 0, "size": [1024] },
+			"media": { "capacity": [8192, 16384, 24576, 32768] }
+		}
+	},
+	{
+		"tag": "Magnabox.Odessei2",
+		"name": "Odessei 2",
+		"releaseDate": { "@type": "ISODate", "value": "1978-12-01" },
+		"discontinued": { "@type": "ISODate", "value": "1984-04-20" },
+		"media": ["ROM Cartridge"],
+		"averageGamePrice": {
+			"currency": "USD",
+			"value": 39.99
+		},
+		"generation": 2,
+		"units": [
+			[{ "@type": "ISODate", "value": "1978-12-01" }, 0],
+			[{ "@type": "ISODate", "value": "1981-01-01" }, 250000],
+			[{ "@type": "ISODate", "value": "1984-02-01" }, 2000000]
+		],
+		"imagesrc": "ODESSI_2",
+		"license": { "bought": false, "costPerYear": 10000 },
+		"specs": {
+			"cpu": { "speed": 1790000, "core": 1, "socket": 1, "DIPCC": 1, "bit": 8 },
+			"gpu": { "resolution": { "width": 160, "height": 200 }, "maxSprite": 4, "color": 8 },
+			"mem": { "speed": 0, "size": [192] },
+			"media": { "capacity": [2048, 4096, 8192] }
+		}
+	},
+	{
+		"tag": "yes",
+		"name": "Yamauchi Entertainment System",
+		"releaseDate": { "@type": "ISODate", "value": "1985-10-18" },
+		"discontinued": { "@type": "ISODate", "value": "1995-08-14" },
+		"media": ["ROM Cartridge"],
+		"averageGamePrice": {
+			"currency": "USD",
+			"value": 35
+		},
+		"generation": 3,
+		"units": [
+			[{ "@type": "ISODate", "value": "1985-10-18" }, 0],
+			[{ "@type": "ISODate", "value": "1995-01-01" }, 60000000]
+		],
+		"imagesrc": "YES",
+		"license": { "bought": false, "costPerYear": 10000 },
+		"specs": {
+			"cpu": { "speed": 1790000, "core": 1, "socket": 1, "DIPCC": 0.43, "bit": 8 },
+			"gpu": { "resolution": { "width": 256, "height": 240 }, "maxSprite": 64, "color": 25 },
+			"mem": { "speed": 0, "size": [2048] },
+			"media": { "capacity": [24576, 1048576] }
+		}
+	},
+	{
+		"tag": "sagems",
+		"name": "Sage Master System",
+		"releaseDate": { "@type": "ISODate", "value": "1986-09-01" },
+		"discontinued": { "@type": "ISODate", "value": "1994-01-01" },
+		"media": ["ROM Cartridge"],
+		"averageGamePrice": {
+			"currency": "USD",
+			"value": 35
+		},
+		"generation": 3,
+		"units": [
+			[{ "@type": "ISODate", "value": "1986-09-01" }, 0],
+			[{ "@type": "ISODate", "value": "1994-01-01" }, 10000000]
+		],
+		"imagesrc": "SAGE_MS",
+		"license": { "bought": false, "costPerYear": 10000 },
+		"specs": {
+			"cpu": { "speed": 3580000, "core": 1, "socket": 1, "DIPCC": 0.145, "bit": 8 },
+			"gpu": { "resolution": { "width": 256, "height": 240 }, "maxSprite": 32, "color": 64 },
+			"mem": { "speed": 0, "size": [8192] },
+			"media": { "capacity": [131072, 262144, 524288], "format": "ROM cartridges" }
+		}
+	},
+	{
+		"tag": "ataru5200",
+		"name": "Ataru 5200",
+		"releaseDate": { "@type": "ISODate", "value": "1982-11-01" },
+		"discontinued": { "@type": "ISODate", "value": "1984-05-21" },
+		"media": ["ROM Cartridge"],
+		"averageGamePrice": {
+			"currency": "USD",
+			"value": 35
+		},
+		"generation": 2,
+		"units": [
+			[{ "@type": "ISODate", "value": "1982-11-01" }, 0],
+			[{ "@type": "ISODate", "value": "1984-05-21" }, 1000000]
+		],
+		"imagesrc": "ATARU_5200",
+		"license": { "bought": false, "costPerYear": 8000 },
+		"specs": {
+			"cpu": { "speed": 1790000, "core": 1, "socket": 1, "DIPCC": 0.43, "bit": 8 },
+			"gpu": { "resolution": { "width": 80, "height": 192 }, "maxSprite": 8, "color": 16 },
+			"mem": { "speed": 0, "size": [16384] },
+			"media": { "capacity": [32768] }
+		}
+	},
+	{
+		"tag": "ataru7800pro",
+		"name": "Ataru 7800 ProSystem",
+		"releaseDate": { "@type": "ISODate", "value": "1986-05-01" },
+		"discontinued": { "@type": "ISODate", "value": "1992-01-01" },
+		"media": ["ROM Cartridge"],
+		"averageGamePrice": {
+			"currency": "USD",
+			"value": 35
+		},
+		"generation": 3,
+		"units": [
+			[{ "@type": "ISODate", "value": "1986-05-01" }, 0],
+			[{ "@type": "ISODate", "value": "1992-01-01" }, 3000000]
+		],
+		"imagesrc": "ATARU_7800",
+		"license": { "bought": false, "costPerYear": 10000 },
+		"specs": {
+			"cpu": { "speed": 1790000, "core": 1, "socket": 1, "DIPCC": 0.43, "bit": 8 },
+			"gpu": { "resolution": { "width": 320, "height": 200 }, "maxSprite": 60, "color": 16 },
+			"mem": { "speed": 0, "size": [4096] },
+			"media": { "capacity": [49152] }
+		}
+	},
+	{
+		"tag": "ataruXe",
+		"name": "Ataru XE Video Game System",
+		"releaseDate": { "@type": "ISODate", "value": "1987-06-01" },
+		"discontinued": { "@type": "ISODate", "value": "1992-01-01" },
+		"media": ["ROM Cartridge"],
+		"averageGamePrice": {
+			"currency": "USD",
+			"value": 35
+		},
+		"generation": 3,
+		"units": [
+			[{ "@type": "ISODate", "value": "1987-06-01" }, 0],
+			[{ "@type": "ISODate", "value": "1992-01-01" }, 100000]
+		],
+		"imagesrc": "ATARU_XE",
+		"license": { "bought": false, "costPerYear": 5000 },
+		"specs": {
+			"cpu": { "speed": 1790000, "core": 1, "socket": 1, "DIPCC": 0.43, "bit": 8 },
+			"gpu": { "resolution": { "width": 320, "height": 192 }, "maxSprite": 8, "color": 16 },
+			"mem": { "speed": 0, "size": [65536] },
+			"media": { "capacity": [16384, 147456] }
+		}
+	}
+]
