@@ -57,8 +57,8 @@
         "signingIdentity": null
       },
       "resources": [],
-      "shortDescription": "OpenTG is the free and open source version of Tech Giants a business simulation tycoon game.",
-      "targets": ["nsis"],
+      "shortDescription": "This is a fork of OpenTG, the free and open source version of a business simulation tycoon game.",
+      "targets": ["deb", "appimage"],
       "windows": {
         "certificateThumbprint": null,
         "digestAlgorithm": "sha256",
