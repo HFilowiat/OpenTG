@@ -1,8 +1,8 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/schema.json",
   "build": {
-    "beforeBuildCommand": "bun run build:windows",
-    "beforeDevCommand": "bun run dev:windows",
+    "beforeBuildCommand": "bun run build:web",
+    "beforeDevCommand": "bun run dev:web",
     "devPath": "http://localhost:5173",
     "distDir": "../build"
   },
@@ -37,7 +37,7 @@
       "category": "Game",
       "copyright": "",
       "deb": {
-        "depends": []
+        "depends": ["libwebkit2gtk-4.0-37"]
       },
       "externalBin": [],
       "icon": [
