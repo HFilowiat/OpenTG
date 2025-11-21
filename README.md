@@ -1,7 +1,10 @@
-# OpenTG
+# OpenTG (fork)
 
-**OpenTG** is the open-source continuation of a previously developed video game project that is no longer under active development.  
-This repository makes the game’s core systems, tools, and assets publicly available for learning, modification, and community-driven experimentation.
+This is a **personal fork** of **OpenTG**, the open-source continuation of a previously developed video game project that is no longer under active development.  
+
+This fork will focus primarily on experimenting with the UI, and creating a Linux desktop build (I have yet to really look at the code, mind you).
+
+I rather doubt I will be distributing a build anywhere for the time being. So, if you want to look at any changes made, you will have to build it yourself.
 
 > ⚠️ **Note:** While OpenTG is open source, the original game’s **brand name, title, and logos** remain protected.  
 > Any derivative projects **must not** use the original game’s name or branding.
@@ -51,35 +54,35 @@ This starts the SvelteKit app locally, typically at http://localhost:5173
 
 ```
 project-root/
-├── src/ # SvelteKit project source
-│ ├── lib/ # Reusable modules, assets, and logic
-│ │ ├── assets/ # Images, sounds, and other static game assets
-│ │ ├── components/ # Svelte components used across the app
-│ │ └── ts/ # TypeScript files for game logic and systems
+├── src/                 # SvelteKit project source
+│ ├── lib/               # Reusable modules, assets, and logic
+│ │ ├── assets/          # Images, sounds, and other static game assets
+│ │ ├── components/      # Svelte components used across the app
+│ │ └── ts/              # TypeScript files for game logic and systems
 │ │
-│ ├── routes/ # UI routes and game interface (Svelte pages)
-│ │ ├── +layout.svelte # Root layout component
-│ │ ├── (game)/ # Game route and UI
-│ │ └── (mainmenu)/ # MainMenu route and UI
+│ ├── routes/            # UI routes and game interface (Svelte pages)
+│ │ ├── +layout.svelte   # Root layout component
+│ │ ├── (game)/          # Game route and UI
+│ │ └── (mainmenu)/      # MainMenu route and UI
 │ │
-│ └── app.html # HTML template for SvelteKit
+│ └── app.html           # HTML template for SvelteKit
 │
-├── src-tauri/ # Tauri source code for desktop build
-│ ├── src/ # Rust backend
-│ ├── icons/ # App icons for desktop packaging
-│ └── tauri.conf.json # Tauri configuration file
+├── src-tauri/           # Tauri source code for desktop build
+│ ├── src/               # Rust backend
+│ ├── icons/             # App icons for desktop packaging
+│ └── tauri.conf.json    # Tauri configuration file
 │
-├── static/ # Static files (favicon, desktop icons)
+├── static/              # Static files (favicon, desktop icons)
 │ ├── desktop-icon.png
 │ └── favicon.svg
 │
-├── .dist/ # Bundled builds for distribution (e.g., Itch.io)
+├── .dist/               # Bundled builds for distribution (e.g., Itch.io)
 │ └── web/
 │   └── OpenTG-web-v0.2.1
 │
-├── package.json # Project dependencies and scripts
-├── svelte.config.js # SvelteKit configuration
-└── tsconfig.json # TypeScript configuration
+├── package.json         # Project dependencies and scripts
+├── svelte.config.js     # SvelteKit configuration
+└── tsconfig.json        # TypeScript configuration
 ```
 
 ## Building the Project
@@ -139,13 +142,15 @@ However, **you may not**:
 You **can** reference the project as being *“based on OpenTG”* — but **not** under the original game’s title.
 
 
-## 🧑‍💻 Developer Note
+## 🧑‍💻 Fork maintainer note
 
-This repository is provided to keep the spirit of the original game alive through community-driven creativity.  
-While active development has stopped for now, the project may resume in the future, so please respect the brand guidelines and keep your forks clearly distinct.
+This fork is part of my effort to experiment and explore making apps with Linux desktop support.
+It is **not** affiliated with the original development team or the maintainers of OpenTG.
 
 
 ## 📜 License
 
 All code and assets in this project are released under the MIT License (see the [`LICENSE`](LICENSE) file for details).
-You are free to use, modify, and distribute the project, provided you comply with the license terms and respect the brand usage policy above.
+You are free to use, modify, and distribute this fork, provided you:
+   - Follow the MIT license terms
+   - Follow the upstream project's brand-usage restrictions.
