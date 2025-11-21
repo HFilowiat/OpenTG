@@ -27,5 +27,11 @@
 		<b>Playtesters</b>
 		<p>Enderlais (<a target="_blank" href="https://discord.com/users/655451708620800041">Discord</a>)</p>
 		<p>ChrisDo (<a target="_blank" href="https://discord.com/users/804625973785657356">Discord</a>)</p>
+
+		<hr style="margin: 2rem auto; width: 50%; opacity: 0.3" />
+		<p style="font-size:large">
+			This fork is maintained independently and is <b>not</b> affiliated with or endorsed by the original 
+			developers listed above.
+		</p>
 	</div>
 </main>
