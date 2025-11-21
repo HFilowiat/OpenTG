@@ -2,9 +2,7 @@
 
 This is a **personal fork** of **OpenTG**, the open-source continuation of a previously developed video game project that is no longer under active development.  
 
-This fork will focus primarily on experimenting with the UI, and creating a Linux desktop build (I have yet to really look at the code, mind you).
-
-I rather doubt I will be distributing a build anywhere for the time being. So, if you want to look at any changes made, you will have to build it yourself.
+This fork focuses on experimenting with the UI and adding a linux desktop build target. I do not plan to distribute any builds at the moment, if you wish to try any changes made you will need to build yourself.
 
 > ⚠️ **Note:** While OpenTG is open source, the original game’s **brand name, title, and logos** remain protected.  
 > Any derivative projects **must not** use the original game’s name or branding.
@@ -12,31 +10,37 @@ I rather doubt I will be distributing a build anywhere for the time being. So, i
 
 ## 🧩 About the Project
 
-OpenTG is built with **SvelteKit** for the web front-end and **Tauri** for the Windows desktop version.  
+OpenTG is built with **SvelteKit** for the web front-end and **Tauri** for the desktop versions.  
 
 ## 🧰 Prerequisites
 
-Before setting up OpenTG, install the following tools:
+- **Code editor:** Any editor with support for TypeScript & Rust.
+- **Bun:** runtime & package manager. Install from https://bun.sh.
+- **Rust & Cargo:** required for Tauri. Install via `rustup` (https://rust-lang.org).
 
-### 1. Code Editor
-- [Visual Studio Code (VSCode)](https://code.visualstudio.com/) — **recommended**.  
-- Alternatively, use any IDE that supports JavaScript/TypeScript and Rust development.
+### Linux specific system packages
+Depending on your distribution you will need the WebKitGTK development packages and AppImage tooling for packaging.
 
-### 2. Bun
-OpenTG uses [Bun](https://bun.sh) as its runtime and package manager.
+### Cross compiling
+If you want to build a windows .exe from linux you will need the MingGW cross toolchain and the rust windows target:
+```bash
+rustup target add x86_64-pc-windows-gnu
+```
+Example (fedora):
+```bash 
+sudo dnf install mingw64-gcc mingw64-gcc-c++ mingw64-binutils mingw-nsis
+```
 
-### 3. Cargo (for Tauri)
-The desktop version is built with [Tauri](https://tauri.app/), which requires [Rust and Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html).
+(See the notes below about NSIS and windows installers, creating the windows installer is easiest on a native windows host.)
 
 ## 📦 Installation
 
-Clone the repository and install dependencies with Bun:
+Clone the repository and install JS dependencies with Bun:
 
 ```bash
 bun install
 ```
-
-This installs all required packages for both the web and desktop builds.
+This installs dependencies used by the web app adn the Tauri desktop. Rust/cargo dependencies are fetched during the Tauri build.
 
 
 ## 🚀 Running the Project
@@ -87,44 +91,77 @@ project-root/
 
 ## Building the Project
 
+Tauri performs two steps:
+   - builds the frontend static assets
+   - compiles/bundles the rust/tauri ap
+
 ### Web Build
 
 ```bash
 bun run build:web
 ```
 
-Then bundle the game into a zip file to easily upload it on itchio by running the command
-
+Package web for itch.io
 ```bash
 bun run bundle:web
 ```
 
+### Linux Build (Default: deb + AppImage)
+
+```bash
+bun run tauri:build:linux
+```
+
+**Output locations:**
+.deb package:
+```
+src-tauri/target/x86_64-unknown-linux-gnu/release/bundle/deb/
+```
+
+AppImage:
+```
+src-tauri/target/x86_64-unknown-linux-gnu/release/bundle/appimage/
+```
+
+The AppImage probably won't bundle right now. 
+The .deb build should work fine.
+
+AppImage bundling requires a linux environment. If you're on windows, you could try using WSL or a linux VM
+
 ### Windows Build
 
-To build an exe installer for windows run the command
+To compile a windows executable from this repo on linux:
+```bash
+rustup target add x86_64-pc-windows-gnu # ensure target and toolchain are installed first
+bun run build:windows:bundle # run the script that builds web + cross-compiles
+```
+Notes:
+- Cross-compiling should produce a working .exe binary. However, creating an NSIS installer requires running makensis.exe which cannot be run natively on linux. For a installer you could build on a windows host.
+- If you only need the .exe, it will be at:
+```
+src-tauri/target/x86_64-pc-windows-gnu/release/
+```
 
+### General Build
+
+You can also run the tauri build command directly
 ```bash
 bun run tauri build
 ```
 
 ## 🖼️ Generating Desktop Icons
 
-To generate platform-specific icons for the Tauri desktop version, follow these steps:
+To genereate platform-specific icons for Tauri, place a base icon at:
+```
+static/desktop-icon.png
+```
 
-1. Place your base icon image and rename it to `desktop-icon.png` inside the `/static` directory.  
-   This image will serve as the source for all generated icons.
+And then run:
+```bash
+bun run tauri:generate:icon
+```
 
-2. Run the following command in your terminal:
-
-   ```bash
-    bun run tauri:generate:icon
-    ```
-    This will output generated icons into:
-    ```bash
-    src-tauri/icons
-    ```
-    These icons will automatically be used in the Tauri desktop build.
-
+This outputs icons to 'src-tauri/icons' and the bundler will pick the appropriate icons for each target.
 
 ## ⚖️ Usage Policy
 
