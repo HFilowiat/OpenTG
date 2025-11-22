@@ -14,14 +14,11 @@
 		"format": "prettier --write .",
 		"bundle:web": "bun itchio-web-bundle.js",
 		"tauri:generate:icon": "bun tauri icon static/desktop-icon.png --output src-tauri/icons",
-		
 		"tauri:dev": "bun tauri dev",
-    	"tauri:build": "bun tauri build",
-
-    	"tauri:dev:windows": "bun tauri dev --target x86_64-pc-windows-gnu",
+		"tauri:build": "bun tauri build",
+		"tauri:dev:windows": "bun tauri dev --target x86_64-pc-windows-gnu",
 		"build:windows:bundle": "bun run build:web && bun run tauri:build:windows",
 		"tauri:build:windows": "bun tauri build --target x86_64-pc-windows-gnu",
-
 		"tauri:dev:linux": "bun tauri dev --target x86_64-unknown-linux-gnu",
 		"tauri:build:linux": "bun tauri build --target x86_64-unknown-linux-gnu",
 		"build:linux:bundle": "bun run build:web && bun run tauri:build:linux"
@@ -30,7 +27,7 @@
 		"@sveltejs/adapter-static": "^3.0.2",
 		"@sveltejs/kit": "^2.5.17",
 		"@sveltejs/vite-plugin-svelte": "^3.1.1",
-		"@tauri-apps/cli": "^1.5.14",
+		"@tauri-apps/cli": "^2.9.4",
 		"@types/d3": "^7.4.3",
 		"@types/semver": "^7.5.8",
 		"@types/topojson-client": "^3.1.4",
@@ -50,7 +47,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@tauri-apps/api": "^1.5.6",
+		"@tauri-apps/api": "^2.0.0",
+		"@tauri-apps/plugin-fs": "~2",
 		"d3": "^7.9.0",
 		"semver": "^7.6.2",
 		"topojson-client": "^3.1.0"

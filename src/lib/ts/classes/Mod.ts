@@ -1,6 +1,6 @@
 import { version } from '$app/environment';
 import { mods } from '$lib/ts/stores/Stores';
-import { exists, createDir, BaseDirectory, readDir, readTextFile } from '@tauri-apps/api/fs';
+import { exists, createDir, BaseDirectory, readDir, readTextFile } from '@tauri-apps/plugin-fs';
 import { get } from 'svelte/store';
 import * as semver from 'semver';
 
